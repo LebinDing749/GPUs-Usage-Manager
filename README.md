@@ -23,7 +23,7 @@ pip install psutil
 ##### Run backstage
 
 ```
-python gpu_monitor.py
+nohup python gpu_monitor.py
 ```
 
 ##### Cat process
