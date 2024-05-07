@@ -9,7 +9,7 @@ Single machine with one or multiple GPUs, record and visualize GPUs usage inform
 ```python
 mkdir gpu_usage
 cd gpu_usage
-git clone 
+git clone git@github.com:LebinDing749/GPUs-Usage-Manager.git
 ```
 
 ##### Install dependencies
