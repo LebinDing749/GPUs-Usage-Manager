@@ -24,16 +24,23 @@ pip install psutil
 ##### Run backstage
 
 ```
-nohup python gpu_monitor.py
+nohup python gpu_monitor.py &
 ```
 
 ##### Cat process
 
 ```
 ps -u {user} -f
+#or 
+jobs
 # if there is 'python gpu_monitor.py', the precess is ruuning
 
 # kill the process
+ps -u {user} -f
 kill -9 {pid}
+
+or
+jobs
+kill -9 %{jobs_id}
 ```
 
