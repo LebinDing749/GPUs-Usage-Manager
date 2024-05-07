@@ -57,7 +57,7 @@ if __name__ == '__main__':
     while True:
         # print('log ')
         write_gpu_info()
-        time.sleep(5)
+        time.sleep(900) # 15 min
     else:
         pynvml.nvmlShutdown()
 
