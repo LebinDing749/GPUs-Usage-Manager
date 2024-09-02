@@ -44,3 +44,6 @@ jobs
 kill -9 %{jobs_id}
 ```
 
+# tip of kill all python command of a user
+pkill -u {user} -f python
+
